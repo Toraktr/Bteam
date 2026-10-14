@@ -1,0 +1,11 @@
+{
+  "name": "event-app",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "pnpm --parallel dev",
+    "build": "pnpm --recursive build",
+    "start": "pnpm --filter backend start"
+  }
+}
